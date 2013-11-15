@@ -1,0 +1,256 @@
+a
+{
+	color: #3e3e3e;
+	text-align: center; 
+	text-decoration: none;
+}
+	
+h1
+{
+	margin: 3em 0 0 0; 	
+}
+  
+header
+{
+	background: #282828; 
+	height: 70px; 
+	margin: 0 ; 
+	padding: 0; 
+	position: static; 
+	width: 100%; 
+}
+
+ul, ol
+{
+	list-style: none;
+}	
+
+#inicio
+{
+	padding: 2em 0; 
+	text-align: center; 
+}
+
+#galeria
+{
+	margin:0;
+	overflow-x:auto;
+	padding:0;
+	text-align:center;
+	white-space:nowrap
+}
+
+#contacto, #envivo, #galeria, #inicio, #servicios
+{
+	margin: 6em 0 6em 0;
+}
+
+#galeria
+{
+	margin: 0; 
+	overflow-x: auto;
+	padding: 0;
+	text-align: center;
+	white-space: nowrap;
+}
+		
+#inicio
+{
+	padding: 2em 0; 
+	text-align: center; 
+}
+	
+.logo
+{
+	float: left; 
+	display: inline-block; 
+}
+	
+	
+.logo img
+{
+	display: inline-block; 
+	width: 150px; 
+}
+	
+.menu_gal
+{
+	background:#dbdbdb;
+	display:inline-block;
+	height:300px;
+	vertical-align:top;
+	width:192px;
+}
+
+.menu_gal img
+{
+	display:inline-block;
+	height:134.5px;
+	width:192px
+}
+ 
+.nav
+{
+	display:inline-block;
+	font-size:14px;
+	font-weight:900;
+	position:relative
+}
+
+.nav-list
+{
+	text-align:left
+}
+
+.nav-item
+{
+	*display:inline;
+	float:left;position:
+	relative;zoom:1
+}
+
+.nav-item a
+{
+	background:#282828;
+	color:#fff;
+	display:block;
+	font-family:'Raleway',sans-serif;
+	padding:15px 20px;
+	text-decoration:none
+}
+
+.nav-item a:hover
+{
+	color:#d40d7d
+}
+
+.nav-item:hover
+{
+	display:block
+}
+
+.nav-mobile
+{
+	background: #3d3d3b url("../img/nav.svg") no-repeat center center;
+	background-size:18px;
+	cursor:pointer;
+	display:none;
+	height:50px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:50px
+}
+
+.nav-click
+{
+	border-left:1px solid #8b2870;
+	cursor:pointer;
+	display:none;
+	height:49px;
+	position:absolute;
+	right:0;
+	top:0;
+	width:50px
+}
+
+.nav-click i
+{
+
+	background-size:20px;
+	display:block;
+	height:48px;
+	width:48px
+}
+
+.nav-click:hover
+{
+	background-color:#6e1656;
+	color:#f4f2f3
+}
+
+.nav-rotate
+{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg)
+}
+
+ul,ol
+{
+	list-style:none
+}
+@media only screen and (max-width: 768px){
+.logo
+{
+	float: left; 
+	display: inline-block; 
+	height: 100px;
+	width: 100px;
+}
+		
+.logo img
+{
+	display: inline-block;
+	height: 100px; 
+	width: 100px; 
+}
+
+.nav-mobile
+{
+	display:block
+}
+
+.nav
+{
+	display: block;
+	padding:50px 0 0;
+	width:100%
+}
+
+.nav-list
+{
+	display:none
+}
+
+.nav-item
+{
+	float:none;
+	width:100%
+}
+
+.nav-item a 
+{
+	border-bottom:1px solid #151515;
+	margin: 0 0 0 10em;
+}
+.nav-item > a
+{
+	padding:15px
+}
+
+.nav-click
+{
+	display:block
+}
+
+.nav-mobile-open
+{
+	border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0
+}
+
+.nav-item:hover .nav-submenu
+{
+	display:none
+}
+
+.nav-submenu
+{
+	position:static;
+	width:100%
+}
+}
